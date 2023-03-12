@@ -1,0 +1,71 @@
+body{
+    /* background-color: rgb(125, 119, 234); */
+    
+}
+
+
+.class1{
+    margin: auto;
+    /* margin-top: 18vh; */
+    background-color:peru;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 1px rgb(239, 187, 134);
+    /* align-items: center; */
+    /* box-sizing: border-box; */
+    
+}
+#text{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(95, 90, 88);
+    border-color: rgb(95, 90, 88);
+    height: 37px;
+    width: 350px;
+    font-weight: bold;
+   font-size: 20px;
+   text-align:center;
+   color:white
+}
+.form-control{
+    /* background-color: blue; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+    padding-left: -100px;
+}
+#length{
+    background-color: rgb(246, 220, 211);
+    border-color: rgb(246, 220, 211);
+}
+
+.button{
+    background-color: coral;
+   height: 50px;
+   width: 350px;
+   margin-top: 40px;
+   font-weight: bold;
+   font-size: 20px;
+   border-color: coral;
+}
+@media (max-width:440px){
+    .class1{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        /* height: 300px; */
+ }
+ #text{
+    height: 30px;
+    width: 250px;
+    font-size: 17px;
+ }
+ .button{
+    height: 50px;
+    width: 250px;
+ }
+ } 
+ 
